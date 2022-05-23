@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Lora");
+
+@import url("components/avatar.css");
+@import url("components/banner.css")
+@import url("components/button.css");
+@import url("components/container.css");
+
+/* General style rules for fonts and colours */
+body {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	background-color: rgb(230, 230, 235);
+}
+
+h1, h2, h3 {
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: purple;
+	transition: 0.3s;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+	padding: 20px;
+}
+.card img {
+  width: 150px;
+}
+.card h4 {
+  flex-grow: 1;
+  padding-left: 20px;
+}
